@@ -22,14 +22,14 @@ How do you rate your Python and C# skills?
 
 ! Did make some comments in the code that explain every line !
 
-C# Code:
+C# Code: <br>
 Sorts out keys with the values less than the "upperBound" (=10) of the Dictionary "someDict" and saves these keys into a new list with the name "someNewDict". It also calls a filling function with the "someDict" Dictionary before (that is not explained in the code snippet).
 
-Python Code:
+Python Code:<br>
 Reading json data from a list of files, sorting the keys by the attribute "time" in ascending order (I guess the time is the timestamp of the file).
 This sorting process is done for every file in the filelist.
 
-Additional task, not required:
+Additional task, not required:<br>
 
 2. Please implement a "named pipe" for exchanging double arrays between a C# and Python process.
 
