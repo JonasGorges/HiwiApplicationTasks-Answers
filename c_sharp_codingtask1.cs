@@ -6,5 +6,9 @@ var someDict = new Dictionary<string, double>();
 var someNewDict = new Dictionary<string, double>();
 // calls the "someFillingFunction" with "someDict" as argument, function not shown here (so don't know what it really does)
 someFillingFunction(someDict);
-// Niklas ist doof
-someDict.Select(kvp => kvp.Key).ToList().ForEach(Key => { if (someDict[Key].Value < upperBound ) someNewDict.Add(Key, someDict[Key]);});
+// selects in the dictionary "someDict" the kvp values and uses the lambda expression to collect the key attributes in a list
+// for each list item (amout of keys in the list of kvp.Key) the if experession is iterated
+someDict.Select(kvp => kvp.Key).ToList().ForEach(Key => {
+    // checks if value of Key is smaller than the upperBound (10) and if this statement is true the Key is added to "someNewDict"
+    if (someDict[Key].Value < upperBound ) someNewDict.Add(Key, someDict[Key]);
+});
