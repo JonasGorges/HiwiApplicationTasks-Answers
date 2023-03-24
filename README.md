@@ -20,6 +20,8 @@ How do you rate your Python and C# skills?
 
 1. Briefly explain the two code snippets you can find in this repo.
 
+! Did make some comments in the code that explain every line !
+
 C# Code:
 Sorts out keys with the values less than the "upperBound" (=10) of the Dictionary "someDict" and saves these keys into a new list with the name "someNewDict". It also calls a filling function with the "someDict" Dictionary before (that is not explained in the code snippet).
 
