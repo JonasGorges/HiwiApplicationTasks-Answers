@@ -9,6 +9,11 @@ State your motivation in a short paragraph
 
 How do you rate your Python and C# skills?
 
+- basic knowledge of code structures and object oriented programming
+- better in python than in C#
+- actually 5 years ago when I actively did something in C++ and C# (during my electronical engineering/ information technologies study)
+- 
+
 ## 3) Coding Tasks
 
 1. Briefly explain the two code snippets you can find in this repo.
