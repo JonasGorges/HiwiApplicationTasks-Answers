@@ -12,3 +12,10 @@ someDict.Select(kvp => kvp.Key).ToList().ForEach(Key => {
     // checks if value of Key is smaller than the upperBound (10) and if this statement is true the Key is added to "someNewDict"
     if (someDict[Key].Value < upperBound ) someNewDict.Add(Key, someDict[Key]);
 });
+// additional task: pipe from C# to python
+static void JsonPipe(Dictionary dict, string fileName){
+    var jsonF = JsonSerializer.Serialize(dict);
+    File.WriteAllText(CONST_PATH + fileName, jsonF);
+}
+// uses the (new) pipe function
+JsonPipe(someDict, "file.json");
