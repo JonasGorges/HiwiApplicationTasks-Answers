@@ -6,5 +6,5 @@ var someDict = new Dictionary<string, double>();
 var someNewDict = new Dictionary<string, double>();
 // calls the "someFillingFunction" with "someDict" as argument, function not shown here (so don't know what it really does)
 someFillingFunction(someDict);
-// 
+// Niklas ist doof
 someDict.Select(kvp => kvp.Key).ToList().ForEach(Key => { if (someDict[Key].Value < upperBound ) someNewDict.Add(Key, someDict[Key]);});
