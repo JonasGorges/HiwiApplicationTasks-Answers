@@ -13,7 +13,7 @@ How do you rate your Python and C# skills?
 
 - basic knowledge of code structures and object oriented programming
 - more experience in python than in C#
-- actually 5 years ago when I actively did something in C++ and C# (during my electronical engineering/ information technologies study)
+- actually it is 5 years ago when I actively did something in C++ and C# (during my electronical engineering/ information technologies study)
 - have to get used to the syntax and script environment again, but I am motivated to catch up on missing knowledge
 
 ## 3) Coding Tasks
